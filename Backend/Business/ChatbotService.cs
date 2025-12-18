@@ -8,7 +8,7 @@ namespace Business.Services;
 public class ChatbotService : IChatbotService
 {
     private readonly HttpClient _httpClient;
-    private const string ApiKey = "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";
+    private const string ApiKey = "";
 
 
     private const string SystemPrompt = @"
